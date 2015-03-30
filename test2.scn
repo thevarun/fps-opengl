@@ -1,0 +1,111 @@
+//this is a comment!! (tex mod objects)
+init 3 2 2
+obj couch.obj
+tex floor_stone.jpg
+tex wall.jpg
+tex cross.jpg
+//couches
+id 1
+up 1.0 0.0 1.0
+front 0.0 1.0 0.0
+pos 24.0 1.0 15.0
+scale 2.0 4.0 2.0
+mod 0
+//the floor and walls
+//floor
+id 3
+up 0.0 0.0 1.0
+front 0.0 1.0 0.0
+pos 0.0 -0.5 0.0
+scale 100.0 100.0 1.0
+tex 0
+//roof
+id 3
+up 0.0 0.0 1.0
+front 0.0 1.0 0.0
+pos 0.0 50.0 0.0
+scale 60.0 40.0 1.0
+tex 0
+//front wall
+id 2
+up 0.0 1.0 0.0
+front 0.0 0.0 1.0
+pos 0.0 5.0 -50.0
+scale 100.0 10.0 1.0
+tex 1
+//back wall
+id 2
+up 0.0 1.0 0.0
+front 0.0 0.0 -1.0
+pos 0.0 5.0 50.0
+scale 100.0 10.0 1.0
+tex 1
+//right wall
+id 2
+up 0.0 1.0 0.0
+front -1.0 0.0 0.0
+pos 50.0 5.0 0.0
+scale 100.0 10.0 1.0
+tex 1
+//left wall
+id 2
+up 0.0 1.0 0.0
+front 1.0 0.0 0.0
+pos -50.0 5.0 0.0
+scale 100.0 10.0 1.0
+tex 1
+//powerup
+id 11
+pos -6.0 2.0 36.0
+tex 2
+id 11
+pos -9.0 2.0 -27.0
+tex 2
+id 11
+pos 14.0 2.0 20.0
+tex 2
+id 11
+pos 21.0 2.0 -12.0
+tex 2
+id 11
+pos -30.0 2.0 5.0
+tex 2
+//power on top
+id 11
+pos -20.0 17.0 -5.0
+tex 2
+//box
+id 4
+pos -10.0 2.5 -5.0
+scale 5.0
+id 4
+pos -15.0 7.5 -5.0
+scale 5.0
+id 4
+pos -20.0 12.5 -5.0
+scale 5.0
+//enemy
+id 100
+up 0.0 1.0 0.0
+front 1.0 0.0 1.0
+pos 15.0 2.2 0.0
+scale 1.0 1.0 1.0
+id 100
+up 0.0 1.0 0.0
+front 1.0 0.0 1.0
+pos -25.0 2.2 20.0
+scale 1.0 1.0 1.0
+id 100
+up 0.0 1.0 0.0
+front 1.0 0.0 1.0
+pos 35.0 2.2 30.0
+scale 1.0 1.0 1.0
+//wall in middle
+id 2
+up 0.0 1.0 0.0
+front 0.0 0.0 1.0
+pos 25.0 5.0 10.0
+scale 50.0 10.0 1.0
+tex 1
+end
+
